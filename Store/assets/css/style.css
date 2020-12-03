@@ -72,3 +72,75 @@ header .site-title {
 .navbar-nav .basket-icon{
     margin-right: 6.5rem !important;
 }
+
+/* Slider One*/
+.slider-one img{
+    height: 500px;
+}
+
+.site-slider{
+    position: relative;
+}
+
+
+.position-top{
+    position:absolute;
+    top:50%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next {
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color:white;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+}
+
+.right-0{
+    right: 0;
+}
+
+/* Slick Dots*/
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0; 
+    list-style-type: none;
+    position:absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+.slick-dots li{
+    margin: 0 0.6rem;
+}
+
+.slick-dots button{
+    display: block;
+    width: .5rem;
+    height: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
