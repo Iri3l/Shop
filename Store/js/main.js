@@ -22,3 +22,17 @@ $(".slider-two")
     slidesToScroll: 1,
     autoplaySpeed:3000,
 });
+
+
+/* Third slider */
+
+$(".slider-three")
+.not(".slick-initialized")
+.slick({
+    prevArrow:".site-slider-three .prev",
+    nextArrow:".site-slider-three .next",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplaySpeed:3000,
+    Infinite: false,
+});
