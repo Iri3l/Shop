@@ -75,7 +75,8 @@ header .site-title {
 
 /* Slider One*/
 .slider-one img{
-    height: 500px;
+    height: 800px;
+    width: 100%
 }
 
 .site-slider{
@@ -295,8 +296,27 @@ header .site-title {
 .slider-six {
     padding: 2% 15%;
     line-height: 32px;
+    font-family: var(--roboto);
+    color: var(light-gray);
 }
 
+.slider-six .slick-dots {
+    bottom: -4rem;
+    left: 50%;
+}
 
+.slider-six .slick-dots button{
+    background-color: var(--border);
+}
 
+.slider-six .slick-dots li.slick-active button{
+    transform: scale(2.5);
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 2px 1px var(--border);
+}
 
+/* Facilities */
+
+.site-info {
+    margin-top: 10rem;
+}
