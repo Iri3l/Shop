@@ -56,10 +56,10 @@ $(".slider-four")
 $(".slider-five")
 .not(".slick-initialized")
 .slick({
-    prevArrow:".site-slider-five .prev",
-    nextArrow:".site-slider-five .next",
-    slidesToShow: 5,
+    prevArrow:".slider-brand .prev",
+    nextArrow:".slider-brand .next",
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplaySpeed:3000,
-    Infinite: false,
+    Infinite: true,
 });

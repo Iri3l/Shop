@@ -260,7 +260,17 @@ header .site-title {
     margin-top: 8rem;
 }
 
+/* Fifth Slider */
 
+.slider-brand{
+    position: relative;
+    margin: 4rem 0;
+}
+
+.slider-five img {
+    height: 100px;
+    width: 100px;
+}
 
 
 
