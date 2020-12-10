@@ -200,9 +200,11 @@ header .site-title {
 
 /* Third Slider*/
 
+
 .slider-three img {
     height: 200px;
     width: 200px;
+    display: inline;
 }
 
 .site-slider-three {
@@ -212,7 +214,7 @@ header .site-title {
 
 .site-slider-three .product {
     height: 100%;
-    padding: 0em;
+    padding: 0;
 }
 
 .site-slider-three .cart-details {
