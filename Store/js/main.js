@@ -63,3 +63,16 @@ $(".slider-five")
     autoplaySpeed:3000,
     Infinite: true,
 });
+
+/* Sixth slider */
+
+$(".slider-six")
+.not(".slick-initialized")
+.slick({
+    prevArrow:"",
+    nextArrow:"",
+    autoplaySpeed:3000,
+    Infinite: true,
+    autoplay:true,
+    dots:true,
+});
