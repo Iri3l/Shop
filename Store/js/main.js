@@ -50,3 +50,16 @@ $(".slider-four")
     autoplaySpeed:3000,
     Infinite: false,
 });
+
+/* Fifth slider */
+
+$(".slider-five")
+.not(".slick-initialized")
+.slick({
+    prevArrow:".site-slider-five .prev",
+    nextArrow:".site-slider-five .next",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplaySpeed:3000,
+    Infinite: false,
+});

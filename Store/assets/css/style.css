@@ -254,7 +254,11 @@ header .site-title {
     border: 1px solid var(--border);
 }
 
+/*  New Seller */
 
+.newseller {
+    margin-top: 8rem;
+}
 
 
 
