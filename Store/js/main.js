@@ -1,4 +1,29 @@
 /** First Slider */
+const breakpoint =[{
+    breakpoint: 1280,
+    settings:{
+        slidesToShow: 4,
+    }
+},
+{
+breakpoint: 1009,
+settings:{
+    slidesToShow: 3,
+    }
+},
+{
+breakpoint: 720,
+settings:{
+    slidesToShow: 2,
+    }
+},
+{
+breakpoint: 460,
+settings:{
+    slidesToShow: 1,
+    }
+}
+]
 
 $(".slider-one")
 .not(".slick-initialized")
@@ -21,6 +46,7 @@ $(".slider-two")
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplaySpeed:3000,
+    responsive: breakpoint,
 });
 
 
@@ -35,6 +61,7 @@ $(".slider-three")
     slidesToScroll: 1,
     autoplaySpeed:3000,
     Infinite: false,
+    responsive: breakpoint,
 });
 
 
@@ -49,6 +76,7 @@ $(".slider-four")
     slidesToScroll: 1,
     autoplaySpeed:3000,
     Infinite: false,
+    responsive: breakpoint,
 });
 
 /* Fifth slider */
@@ -62,6 +90,7 @@ $(".slider-five")
     slidesToScroll: 1,
     autoplaySpeed:3000,
     Infinite: true,
+    responsive: breakpoint,
 });
 
 /* Sixth slider */
